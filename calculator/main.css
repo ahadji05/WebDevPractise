@@ -1,0 +1,142 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+    --btnHeight: 45px;
+    --btnWidth: 45px;
+    --btnRadius: 50%;
+}
+
+body {
+    background: var(--backgr);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+.light-theme {
+    --backgr: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --backgr: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.button0,
+.button1,
+.button2,
+.button3,
+.button4,
+.button5,
+.button6,
+.button7,
+.button8,
+.button9,
+.buttonplus,
+.buttonminus,
+.buttonmult,
+.buttondiv,
+.buttonequals,
+.buttonpercent {
+    position: absolute;
+    height: var(--btnHeight);
+    width: var(--btnWidth);
+    border-radius: var(--btnRadius);
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    border: none;
+}
+
+.button1 {
+    top: 10px;
+    left: 100px;
+}
+
+.button2 {
+    top: 10px;
+    left: 150px;
+}
+
+.button3 {
+    top: 10px;
+    left: 200px;
+}
+
+.button4 {
+    top: 60px;
+    left: 100px;
+}
+
+.button5 {
+    top: 60px;
+    left: 150px;
+}
+
+.button6 {
+    top: 60px;
+    left: 200px;
+}
+
+.button7 {
+    top: 110px;
+    left: 100px;
+}
+
+.button8 {
+    top: 110px;
+    left: 150px;
+}
+
+.button9 {
+    top: 110px;
+    left: 200px;
+}
+
+.button0 {
+    top: 160px;
+    left: 150px;
+}
+
+.buttonplus {
+    top: 10px;
+    left: 250px;
+}
+
+.buttonminus {
+    top: 60px;
+    left: 250px;
+}
+
+.buttonmult {
+    top: 110px;
+    left: 250px;
+}
+
+.buttonequals {
+    top: 160px;
+    left: 200px;
+}
+
+.buttondiv {
+    top: 160px;
+    left: 250px;
+}
+
+.buttonpercent {
+    top: 160px;
+    left: 100px;
+}
+
+.result {
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    height: 45px;
+    width: 200px;
+    background-color: var(--btnBg);
+}
