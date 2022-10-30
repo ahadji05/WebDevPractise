@@ -22,7 +22,7 @@ body {
 
 .dark-theme {
     --backgr: var(--black);
-    --fontColor: var(--green);
+    --fontColor: var(--black);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
 }
@@ -42,7 +42,7 @@ body {
 .buttonmult,
 .buttondiv,
 .buttonequals,
-.buttonpercent {
+.buttonac {
     position: absolute;
     height: var(--btnHeight);
     width: var(--btnWidth);
@@ -127,7 +127,7 @@ body {
     left: 250px;
 }
 
-.buttonpercent {
+.buttonac {
     top: 160px;
     left: 100px;
 }
